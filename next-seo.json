@@ -1,0 +1,27 @@
+{
+  "title": "",
+  "titleTemplate": "",
+  "description": "",
+  "favicon": "/favicon.ico",
+  "additionalMetaTags": [
+    { "property": "", "content": "" },
+    {
+      "property": "",
+      "content": ""
+    }
+  ],
+  "openGraph": {
+    "type": "website",
+    "site_name": "",
+    "profile": {
+      "firstName": ""
+    },
+    "images": [
+      {
+        "url": "/images/og.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  }
+}
