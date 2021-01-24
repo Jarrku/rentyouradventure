@@ -30,14 +30,14 @@ export default function Site() {
   return (
     <div className="relative min-h-screen">
       <Image priority src="/images/homepage.jpg" layout="fill" className="z-0" objectFit="cover" />
-      <div className="absolute z-10 w-full h-full ">
-        <div className="max-w-screen-md mx-auto text-center mt-12">
+      <div className="absolute z-10 w-full h-full px-4">
+        <div className="max-w-screen-md mx-auto text-center mt-16">
           <h1 className="tracking-tighter font-semibold text-blue-500">
-            <span className="block text-2xl sm:text-3xl md:text-4xl ">Welkom bij Rent Your Adventure</span>
-            <span className="block text-xl">Klik op jouw favoriet avontuur</span>
+            <span className="block text-2xl sm:text-3xl md:text-4xl">Welkom bij Rent Your Adventure</span>
+            <span className="block text-xl sm:text-2xl ">Klik op jouw favoriet avontuur</span>
           </h1>
           <Transition show={show}>
-            <div className="mt-12 justify-items-center grid grid-cols-2 px-2">
+            <div className="mt-20 justify-items-center grid grid-cols-2 gap-y-8 gap-x-4">
               <SiteLogo src="/images/archery.png" href="/archery" />
               <SiteLogo src="/images/bumper.png" href="/bumper" />
               <SiteLogo src="/images/paintball.png" href="/paintball" />
