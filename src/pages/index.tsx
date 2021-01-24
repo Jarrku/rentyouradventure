@@ -66,8 +66,15 @@ function SiteLogo({ href, src }: SiteLogoProps) {
       leaveTo="opacity-0 scale-95"
     >
       <Link href={href}>
-        <a>
-          <Image priority src={src} width={300} height={218} />
+        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+        <a className="overflow-visible-child">
+          <Image
+            className="transition ease-out transform hover:scale-110"
+            priority
+            src={src}
+            width={300}
+            height={218}
+          />
         </a>
       </Link>
     </Transition.Child>
